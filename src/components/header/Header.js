@@ -6,7 +6,7 @@ class Header extends Component {
 
   componentDidMount() {
     var elem = document.querySelector(".sidenav");
-        var instance = M.Sidenav.init(elem, {
+        var instances = M.Sidenav.init(elem, {
             edge: "left",
             inDuration: 250
         });
@@ -17,12 +17,12 @@ class Header extends Component {
       <Fragment>
         <nav>
           <div className="nav-wrapper indigo">
-            <LinkWrapper to="/" className="brand-logo left" activeStyle={{}}>COMPANY</LinkWrapper>
+            <LinkWrapper to="/" className="brand-logo left" activeStyle={{}}>CdA</LinkWrapper>
             <LinkWrapper to="#" data-target="mobile-links" className="sidenav-trigger right"><i className="material-icons">menu</i></LinkWrapper>
             <ul className="right hide-on-med-and-down">
-              <li><LinkWrapper to="/home">Home</LinkWrapper></li>
-              <li><LinkWrapper to="/authors">Authors</LinkWrapper></li>
-              <li><LinkWrapper to="/books">Books</LinkWrapper></li>
+              <li><LinkWrapper to="/">Home</LinkWrapper></li>
+              <li><LinkWrapper to="/authors">Autores</LinkWrapper></li>
+              <li><LinkWrapper to="/books">Livros</LinkWrapper></li>
             </ul>
           </div>
         </nav>
