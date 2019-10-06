@@ -4,7 +4,7 @@
 This Project was developed for learning purposes only and comes from one of the React courses from Alura.
 </p>
 
-[Alura website](https://www.alura.com.br/).
+[My profile on Alura](https://cursos.alura.com.br/user/stefanosaffran).
 
 ## Built With
 
